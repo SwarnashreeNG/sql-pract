@@ -1,0 +1,8 @@
+-- Problem: Query all American cities with population > 100000
+-- Platform: HackerRank
+-- Topic: WHERE clause
+
+SELECT *
+FROM CITY
+WHERE COUNTRYCODE = 'USA'
+AND POPULATION > 100000;
